@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\HourShow.cs" />
+     <Compile Include="Assets\Scripts\TimerMath.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <None Include="Assets\Fonts\mobile_sans2\License information - Mobile Sans.txt" />
  <Reference Include="UnityEngine">

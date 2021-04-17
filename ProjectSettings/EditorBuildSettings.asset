@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Timer.unity
+    path: Assets/Scenes/TimerMath.unity
     guid: f79e006da1d71f84eaa8de32ed6d9a0b
+  - enabled: 1
+    path: Assets/Scenes/Timer.unity
+    guid: df4cc0360c1b1ca4999c392f0a562476
   m_configObjects: {}

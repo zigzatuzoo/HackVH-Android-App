@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bc6c2adbd0f8c6a4597658b07934cd37
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SKETCHUP FREE TRIAL
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 89cddeca2c15e8a4b950cdff9c924e75, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

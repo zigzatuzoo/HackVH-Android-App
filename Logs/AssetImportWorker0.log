@@ -830,3 +830,4 @@ Received Import Request.
 Start importing Assets/Scenes/TimerMath.unity using Guid(f79e006da1d71f84eaa8de32ed6d9a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64df9f82a636893c8a06fbd76dd85900') in 0.003768 seconds
   Import took 0.007261 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

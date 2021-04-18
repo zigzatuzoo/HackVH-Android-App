@@ -115,17 +115,19 @@ public class Toggles : TimerMath
             Debug.Log(intStudyTime);
             Debug.Log(intBreakLength);
 
+            int kStudyTime = intStudyTime;
+
             string display = "";
 
-            while (intStudyTime > 50)
+            while (kStudyTime > 50)
             {
                 display = display.ToString() + "50" + " Minutes" + "\n";
                 display = display.ToString() + "10" + " Minutes" + "\n";
-                intStudyTime -= 50;
+                kStudyTime -= 50;
             }
-            if (intStudyTime > 0 && intStudyTime <= 50)
+            if (kStudyTime > 0 && kStudyTime <= 50)
             {
-                display = display.ToString() + intStudyTime + " Minutes";
+                display = display.ToString() + kStudyTime + " Minutes";
                 //Debug.Log("Minutes left:" + intStudyTime);
             }
             output.text = display;
@@ -147,19 +149,19 @@ public class Toggles : TimerMath
             Debug.Log(intStudyTime);
             Debug.Log(intBreakLength);
 
-            int k = intStudyTime;
+            int kStudy = intStudyTime;
 
             string display = "";
 
-            while (k > 25)
+            while (kStudy > 25)
             {
                 display = display.ToString() + "25" + " Minutes" + "\n";
                 display = display.ToString() + "5" + " Minutes" + "\n";
-                k -= 25;
+                kStudy -= 25;
             }
-            if (k > 0 && k <= 25)
+            if (kStudy > 0 && kStudy <= 25)
             {
-                display = display.ToString() + k + " Minutes";
+                display = display.ToString() + kStudy + " Minutes";
                 //Debug.Log("Minutes left:" + intStudyTime);
             }
             output.text = display;
@@ -168,6 +170,8 @@ public class Toggles : TimerMath
             startButton.interactable = true;
             Button btn = startButton;
             btn.onClick.AddListener(toTimer);
+            
+
         }
         
     }

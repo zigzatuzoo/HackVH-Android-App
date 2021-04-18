@@ -33,7 +33,8 @@ public class TimerMath : MonoBehaviour
 
     public void submit()
     {
-        /*Debug.Log("submit button clicked");
+        PlayerPrefs.DeleteAll();
+        Debug.Log("submit button clicked");
         Debug.Log(studyTime.text);
 
         int intBreakLength;
@@ -45,7 +46,7 @@ public class TimerMath : MonoBehaviour
         Debug.Log(intStudyTime);
         Debug.Log(intBreakLength);
 
-        double math = (intStudyTime / (intNumBreaks + 1)) - (intBreakLength / 2);
+        float math = (intStudyTime / (intNumBreaks + 1)) - (intBreakLength / 2);
         Debug.Log(math);
 
         List<double> test = new List<double>();
@@ -72,7 +73,15 @@ public class TimerMath : MonoBehaviour
 
         startButton.interactable = true;
         Button btn = startButton;
-        btn.onClick.AddListener(toTimer);*/
+        btn.onClick.AddListener(toTimer);
+
+        
+
+        PlayerPrefs.SetInt("breakLengthPref", intBreakLength);
+        PlayerPrefs.SetInt("numBreakPref", intNumBreaks);
+        PlayerPrefs.SetInt("studyTimePref", intStudyTime);
+        PlayerPrefs.SetFloat("mathPref", math);
+
     }
     public void toTimer()
     {

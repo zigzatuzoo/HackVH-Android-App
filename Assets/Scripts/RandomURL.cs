@@ -50,8 +50,11 @@ public class RandomURL : MonoBehaviour
     {
         var helpList = new ArrayList()
         {
-            "https://youtube.com",
-            "https://google.com"
+            "https://suicidepreventionlifeline.org/",
+            "https://www.samhsa.gov/find-help/national-helpline",
+            "https://samaritanshope.org/our-services/24-7-helpline/",
+            "https://www.cnet.com/health/suicide-hotlines-crisis-hotlines-to-call-or-text-when-you-need-help/"
+            
         };
 
         int randNumTwo = Random.Range(0, helpList.Count);

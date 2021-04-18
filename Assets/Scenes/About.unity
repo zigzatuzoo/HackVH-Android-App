@@ -768,11 +768,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723548220145775961, guid: c71ba8b8c6f652348b9e71cfb3adf569, type: 3}
       propertyPath: m_Text
-      value: 'Welcome to GoDaddy Scheduler!
+      value: 'Welcome to the LearnGage Scheduler!
 
 
-        Here you can effectively manage
-        your time to get all of your work done while staying mentally healthy
+        Here you can effectively
+        manage your time to get all of your work done while staying mentally healthy
 
 
         For

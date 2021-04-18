@@ -230,18 +230,20 @@ IL2CPP_EXTERN_C String_t* _stringLiteral0063AE1C66B36B0424C4544DBBF3D32A9F5AC827
 IL2CPP_EXTERN_C String_t* _stringLiteral008B09E8C7B0FD03D361EBDDF953DEC5C444AEE8;
 IL2CPP_EXTERN_C String_t* _stringLiteral00E334A5E2BBB8EB89092E40CEB95107395D50F1;
 IL2CPP_EXTERN_C String_t* _stringLiteral030CEB4E1C852767C46635DB3CEBEE8843DBD3F1;
+IL2CPP_EXTERN_C String_t* _stringLiteral40CADC77024B8F39428CC783B80B0939C421BC62;
 IL2CPP_EXTERN_C String_t* _stringLiteral447D51FC39DCE5B0930DA937357DB210A3EFF396;
 IL2CPP_EXTERN_C String_t* _stringLiteral48419E0AC7A3C471E758A3F53E24363D7898657B;
 IL2CPP_EXTERN_C String_t* _stringLiteral5218EB0E5B3AAEC0B88C6AAC2074F2793D7B647F;
 IL2CPP_EXTERN_C String_t* _stringLiteral7FBCB225A1DDD45B2F1997CD40CE29340E60AA09;
-IL2CPP_EXTERN_C String_t* _stringLiteralA452AA8E0DC80D8DE21B2F8F41E4E4D683373BD9;
+IL2CPP_EXTERN_C String_t* _stringLiteral97985D9A90ECCCD3D5A2C8F97D69264D41908382;
+IL2CPP_EXTERN_C String_t* _stringLiteralA627A05E68435F21012EED9CBFEF3A6F47953751;
 IL2CPP_EXTERN_C String_t* _stringLiteralA63A8A4D7679637E3F26D823BD46DB1039364FA2;
-IL2CPP_EXTERN_C String_t* _stringLiteralB6EB8216D6C7B4105917D97B27F450193394B177;
 IL2CPP_EXTERN_C String_t* _stringLiteralBBC1106D65ACC9B0DB541F4FAF5DBAF5B7F7BA1F;
 IL2CPP_EXTERN_C String_t* _stringLiteralD55007B48BB36AF1A93548A206F21A57C9355DDC;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDFDC97A65DDCE792D1CEBD781D553668ABD7E9EA;
 IL2CPP_EXTERN_C String_t* _stringLiteralE7FD3F012C09D06FC1D5528E1AD63365205A8449;
+IL2CPP_EXTERN_C String_t* _stringLiteralEE145E6ABCA4CE166F6A796DAC282A595DDF96DF;
 IL2CPP_EXTERN_C String_t* _stringLiteralF4A5CC295FDBF7E98B8AFB4DB6E27688E94D7BF6;
 IL2CPP_EXTERN_C String_t* _stringLiteralF944DCD635F9801F7AC90A407FBC479964DEC024;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_tA893FC15AB26E1439AC25BDCA7079530587BB65D_m23CBF33EAAEEC18E7B5AA90422BB1E4781B774A6_RuntimeMethod_var;
@@ -4638,8 +4640,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomURL_OpenRandomHelp_mF611D06A68DCB5
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&String_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA452AA8E0DC80D8DE21B2F8F41E4E4D683373BD9);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB6EB8216D6C7B4105917D97B27F450193394B177);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral40CADC77024B8F39428CC783B80B0939C421BC62);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral97985D9A90ECCCD3D5A2C8F97D69264D41908382);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA627A05E68435F21012EED9CBFEF3A6F47953751);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEE145E6ABCA4CE166F6A796DAC282A595DDF96DF);
 		s_Il2CppMethodInitialized = true;
 	}
 	ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * V_0 = NULL;
@@ -4647,36 +4651,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomURL_OpenRandomHelp_mF611D06A68DCB5
 	{
 		// var helpList = new ArrayList()
 		// {
-		//     "https://youtube.com",
-		//     "https://google.com"
+		//     "https://suicidepreventionlifeline.org/",
+		//     "https://www.samhsa.gov/find-help/national-helpline",
+		//     "https://samaritanshope.org/our-services/24-7-helpline/",
+		//     "https://www.cnet.com/health/suicide-hotlines-crisis-hotlines-to-call-or-text-when-you-need-help/"
+		// 
 		// };
 		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_0 = (ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 *)il2cpp_codegen_object_new(ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575_il2cpp_TypeInfo_var);
 		ArrayList__ctor_m6847CFECD6BDC2AD10A4AC9852A572B88B8D6B1B(L_0, /*hidden argument*/NULL);
 		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_1 = L_0;
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_1, _stringLiteralA452AA8E0DC80D8DE21B2F8F41E4E4D683373BD9);
+		L_2 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_1, _stringLiteralEE145E6ABCA4CE166F6A796DAC282A595DDF96DF);
 		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_3 = L_1;
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_3, _stringLiteralB6EB8216D6C7B4105917D97B27F450193394B177);
-		V_0 = L_3;
-		// int randNumTwo = Random.Range(0, helpList.Count);
-		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_5 = V_0;
+		L_4 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_3, _stringLiteralA627A05E68435F21012EED9CBFEF3A6F47953751);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_5 = L_3;
 		NullCheck(L_5);
 		int32_t L_6;
-		L_6 = VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_5);
-		int32_t L_7;
-		L_7 = Random_Range_m4B3A0037ACA057F33C94508F908546B9317D996A(0, L_6, /*hidden argument*/NULL);
-		V_1 = L_7;
+		L_6 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_5, _stringLiteral97985D9A90ECCCD3D5A2C8F97D69264D41908382);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_7 = L_5;
+		NullCheck(L_7);
+		int32_t L_8;
+		L_8 = VirtFuncInvoker1< int32_t, RuntimeObject * >::Invoke(24 /* System.Int32 System.Collections.ArrayList::Add(System.Object) */, L_7, _stringLiteral40CADC77024B8F39428CC783B80B0939C421BC62);
+		V_0 = L_7;
+		// int randNumTwo = Random.Range(0, helpList.Count);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_9 = V_0;
+		NullCheck(L_9);
+		int32_t L_10;
+		L_10 = VirtFuncInvoker0< int32_t >::Invoke(19 /* System.Int32 System.Collections.ArrayList::get_Count() */, L_9);
+		int32_t L_11;
+		L_11 = Random_Range_m4B3A0037ACA057F33C94508F908546B9317D996A(0, L_10, /*hidden argument*/NULL);
+		V_1 = L_11;
 		// string helpOpened = (string)helpList[randNumTwo];
-		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_8 = V_0;
-		int32_t L_9 = V_1;
-		NullCheck(L_8);
-		RuntimeObject * L_10;
-		L_10 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(22 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_8, L_9);
+		ArrayList_t6C1A49839DC1F0D568E8E11FA1626FCF0EC06575 * L_12 = V_0;
+		int32_t L_13 = V_1;
+		NullCheck(L_12);
+		RuntimeObject * L_14;
+		L_14 = VirtFuncInvoker1< RuntimeObject *, int32_t >::Invoke(22 /* System.Object System.Collections.ArrayList::get_Item(System.Int32) */, L_12, L_13);
 		// Application.OpenURL(helpOpened);
-		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(((String_t*)CastclassSealed((RuntimeObject*)L_10, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+		Application_OpenURL_m4AED08D5321E5395FAC8D91C2C428DBE60C5FD4E(((String_t*)CastclassSealed((RuntimeObject*)L_14, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
 		// }
 		return;
 	}

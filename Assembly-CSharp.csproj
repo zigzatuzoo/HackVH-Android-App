@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\RandomURL.cs" />
+     <Compile Include="Assets\Scripts\Toggles.cs" />
      <Compile Include="Assets\Scripts\HourShow.cs" />
      <Compile Include="Assets\Scripts\TimerMath.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />

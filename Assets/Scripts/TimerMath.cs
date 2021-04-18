@@ -31,9 +31,9 @@ public class TimerMath : MonoBehaviour
         startButton.interactable = false;
     }
 
-    void submit()
+    public void submit()
     {
-        Debug.Log("submit button clicked");
+        /*Debug.Log("submit button clicked");
         Debug.Log(studyTime.text);
 
         int intBreakLength;
@@ -72,9 +72,9 @@ public class TimerMath : MonoBehaviour
 
         startButton.interactable = true;
         Button btn = startButton;
-        btn.onClick.AddListener(toTimer);
+        btn.onClick.AddListener(toTimer);*/
     }
-    void toTimer()
+    public void toTimer()
     {
         SceneManager.LoadScene("Timer");
     }

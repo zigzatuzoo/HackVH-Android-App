@@ -2241,6 +2241,7 @@ GameObject:
   - component: {fileID: 1449970084}
   - component: {fileID: 1449970083}
   - component: {fileID: 1449970085}
+  - component: {fileID: 1449970086}
   m_Layer: 0
   m_Name: Timer Object
   m_TagString: Untagged
@@ -2297,6 +2298,28 @@ MonoBehaviour:
   slideroutput: {fileID: 741290540}
   time: 
   startButton: {fileID: 2062713483}
+--- !u!114 &1449970086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449970082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8149464a16ccea428aa60085badeedf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  studyTime: {fileID: 884272329}
+  breakLength: {fileID: 1839431730}
+  numOfBreaks: {fileID: 29350987}
+  submitButton: {fileID: 1501450132}
+  output: {fileID: 1517903477}
+  slideroutput: {fileID: 741290540}
+  time: 
+  startButton: {fileID: 2062713483}
+  inGameHourToggle: {fileID: 829910892}
+  inGameMinuteToggle: {fileID: 84539210}
 --- !u!1 &1480909633
 GameObject:
   m_ObjectHideFlags: 0
@@ -2536,7 +2559,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: bc6c2adbd0f8c6a4597658b07934cd37, type: 3}
+    m_Font: {fileID: 12800000, guid: 77b979b9498becb47abee2fd12625224, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
@@ -3028,59 +3051,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868598729}
   m_CullTransparentMesh: 1
---- !u!1 &1933221950
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1933221952}
-  - component: {fileID: 1933221951}
-  m_Layer: 0
-  m_Name: ToggleTest
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1933221951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933221950}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8149464a16ccea428aa60085badeedf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  studyTime: {fileID: 0}
-  breakLength: {fileID: 0}
-  numOfBreaks: {fileID: 0}
-  submitButton: {fileID: 0}
-  output: {fileID: 0}
-  slideroutput: {fileID: 0}
-  time: 
-  startButton: {fileID: 0}
-  inGameHourToggle: {fileID: 829910892}
-  inGameMinuteToggle: {fileID: 84539210}
---- !u!4 &1933221952
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933221950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 611.41583, y: 909.15436, z: -6150.8257}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2062713481
 GameObject:
   m_ObjectHideFlags: 0

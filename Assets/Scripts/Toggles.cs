@@ -15,11 +15,13 @@ public class Toggles : TimerMath
 
     private void Start()
      {
-        
+        Button subbtn = submitButton.GetComponent<Button>();
+        subbtn.onClick.AddListener(submit);
+        startButton.interactable = false;
 
         //Debug.Log("value = " + inGameHourToggle.isOn);
 
-     }
+    }
 
      //Use buttons linked to this
      public void ChangeValueToTrue(Toggle aToggle)
@@ -60,9 +62,9 @@ public class Toggles : TimerMath
     }
     
     
-    public override void submit()
+    new public void submit()
     {
-        if(inGameMinuteToggle.isOn == false && inGameHourToggle.isOn = false)
+        if( inGameMinuteToggle.isOn == false && inGameHourToggle.isOn == false )
         {
             int intBreakLength;
             int intNumBreaks;
@@ -112,6 +114,27 @@ public class Toggles : TimerMath
             intStudyTime = int.Parse(studyTime.text);
             Debug.Log(intStudyTime);
             Debug.Log(intBreakLength);
+
+            string display = "";
+
+            while (intStudyTime > 50)
+            {
+                display = display.ToString() + "50" + " Minutes" + "\n";
+                display = display.ToString() + "10" + " Minutes" + "\n";
+                intStudyTime -= 50;
+            }
+            if (intStudyTime > 0 && intStudyTime <= 50)
+            {
+                display = display.ToString() + intStudyTime + " Minutes";
+                //Debug.Log("Minutes left:" + intStudyTime);
+            }
+            output.text = display;
+            time = display;
+
+            startButton.interactable = true;
+            Button btn = startButton;
+            btn.onClick.AddListener(toTimer);
+
         }
         else if (inGameMinuteToggle.isOn)
         {
@@ -123,6 +146,28 @@ public class Toggles : TimerMath
             intStudyTime = int.Parse(studyTime.text);
             Debug.Log(intStudyTime);
             Debug.Log(intBreakLength);
+
+            int k = intStudyTime;
+
+            string display = "";
+
+            while (k > 25)
+            {
+                display = display.ToString() + "25" + " Minutes" + "\n";
+                display = display.ToString() + "5" + " Minutes" + "\n";
+                k -= 25;
+            }
+            if (k > 0 && k <= 25)
+            {
+                display = display.ToString() + k + " Minutes";
+                //Debug.Log("Minutes left:" + intStudyTime);
+            }
+            output.text = display;
+            time = display;
+
+            startButton.interactable = true;
+            Button btn = startButton;
+            btn.onClick.AddListener(toTimer);
         }
         
     }
